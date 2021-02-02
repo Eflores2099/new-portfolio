@@ -25,7 +25,7 @@ export default function About() {
 
     return (
         <main className="relative">
-            <img  src={image} alt="Photo by Mathieu Daix. Mont-Blanc from Saleve" className="absolute w-full" />
+            <img  src={image} alt="Mathieu Daix. Mont-Blanc from Saleve" className="absolute w-full" />
             <div className="p-10 lg:pt-48 container mx-auto relative">
                 <section className="bg-green-800 rounded shadow-2xl lg:flex p-20">
                    <img src={urlFor(author.authorImage).url()} 
