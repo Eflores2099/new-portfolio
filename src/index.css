@@ -1,9 +1,30 @@
-@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .scroll-snap-none {
+    scroll-snap-type: none;
+  }
+  .scroll-snap-x {
+    scroll-snap-type: x;
+  }
+  .scroll-snap-y {
+    scroll-snap-type: y;
+  }
+}
+
+
+
+
+
+
+/* @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Raleway:ital,wght@1,300&display=swap');
 
 .cursive {
-  font-family: "Amatic SC", cursive;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
 
@@ -15,4 +36,6 @@
 
 .home-name {
   font-size: 100px;
-}
+} */
+
+
