@@ -8,7 +8,7 @@ import NavBar from './components/NavBar'
 
 function App() {
   return (
-    <div className="container none overscroll-none">
+    
     <BrowserRouter>
     <NavBar />
     <Switch>
@@ -19,7 +19,6 @@ function App() {
       <Route component={Projects} path='/projects' />
     </Switch>
     </BrowserRouter>
-    </div>
   )
  
   
