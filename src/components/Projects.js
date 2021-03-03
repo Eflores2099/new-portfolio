@@ -20,10 +20,10 @@ export default function Projects() {
     }, [])
     return (
         <main className="bg-purple-400 min-h-screen p-12">
-            <section className="container mx-auto">
+            <section className="sm:container mx-auto">
                 <h1 className="text-5xl flex justify-center mb-6">My Projects</h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my projects page.</h2>
-                <section className='grid grid-cols-2 gap-8'>
+                <section className='xs:flex flex-col gap-2 md:grid grid-cols-2 gap-8'>
                     {projectData && projectData.map((project, index) =>(
                     <article className='relative rounded-lg shadow-xl bg-white p-16'>
                         <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
