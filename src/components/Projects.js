@@ -23,9 +23,9 @@ export default function Projects() {
             <section className="sm:container mx-auto">
                 <h1 className="text-5xl flex justify-center mb-6">My Projects</h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my projects page.</h2>
-                <section className='xs:flex flex-col gap-2 md:grid grid-cols-2 gap-8'>
+                <section className='sm:flex flex-col md:grid grid-cols-2 gap-8'>
                     {projectData && projectData.map((project, index) =>(
-                    <article className='relative rounded-lg shadow-xl bg-white p-16'>
+                    <article className='sm:relative rounded-lg shadow-xl bg-white p-7 m-5'>
                         <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                             <a
                             href={projectData.link}
