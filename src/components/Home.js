@@ -1,6 +1,6 @@
 import React from 'react'
 import image from '../ergita-sela.jpg'
-import {SocialIcon } from 'react-social-icons'
+// import {SocialIcon } from 'react-social-icons'
 
 
 export default function Home() {
