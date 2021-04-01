@@ -9,7 +9,7 @@ export default function Home() {
             <img src={image} alt="Ergita Sela. the white theme" className="sm:bg-gradient-to-s  md:absolute object-cover w-full h-full bg-gradient-to-tr sm:opacity-100 md:opacity-75"/>
             {/* <img src={image} alt="Ergita Sela. the white theme" className=" bg-gradient-to-l md:bg-gradient-to-r "/> */}
             <section className="relative flex-col justify-center min-h-full pt-12 lg:pt-20 px-8" >
-                <h1 className="sm:text-left text-purple-900 text-7xl leading-none lg:leading-snug text-left">Ron Flores</h1>
+                <h1 className="sm:text-left text-purple-900 text-7xl leading-none lg:leading-snug text-left">Erik Flores</h1>
                 <h2 className="sm:text-left text-purple-900 text-5xl leading-none lg:leading-snug text-left">React Developer</h2>
 
                 {/* <div className="inline-flex py-3 px-3 my-6 xs:visible sm:invisible lg:invisible ">
