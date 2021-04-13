@@ -26,14 +26,14 @@ export default function About() {
     return (
         <main className="relative">
             <img  src={image} alt="Mathieu Daix. Mont-Blanc from Saleve" className=" sm:bg-gradient-to-s absolute w-full" />
-            <div className="p-10 lg:pt-48 container mx-auto relative">
-                <section className="sm: bg-gradient-to-s absolute w-full bg-green-800 rounded shadow-2xl lg:flex p-20">
+            <div className="sm:p-0 lg:pt-48 container mx-auto relative">
+                <section className="sm:bg-gradient-to-s relative w-full bg-green-800 rounded shadow-2xl lg:flex p-20">
                    <img src={urlFor(author.authorImage).url()} 
                    className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
                    alt={author.name} 
                    />
                    <div className="text-lg flex flex-col justify-center">
-                       <h1 className="cursive text-6xl text-green-300 mb-4">
+                       <h1 className="sm: text-2xl lg:cursive text-6xl text-green-300 mb-4">
                            <span className="text-green-100">{author.name}</span>
                        </h1>
                        <div className="prose lg:prose-xl text-white">
