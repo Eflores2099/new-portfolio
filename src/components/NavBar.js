@@ -20,12 +20,12 @@ export default function NavBar() {
                         className='inline-flex items-center py-3 px-3 my-6 rounded text-purple-900 hover:text-red-100'>
                         Projects
                     </NavLink>
-                    <NavLink 
+                    {/* <NavLink 
                         to= '/posts'
                         activeClassName='text-green-300 bg-green-100'
                         className='inline-flex items-center py-3 px-3 my-6 rounded text-purple-900 hover:text-red-100'>
                         Blog 
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink    
                         to ='/about'
                         activeClassName='text-green-300 bg-green-100'
